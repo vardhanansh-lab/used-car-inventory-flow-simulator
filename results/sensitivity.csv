@@ -1,0 +1,10 @@
+Lever,d_days,d_capital,d_tat,d_contrib,d_lost
+Add 10 bays at Metro-B,-0.548,-1.948,-0.947,108.922,-27.833
+Parts fill rate 98% (from 95%),-0.622,-1.412,-1.41,225.533,-6.833
+Local restoration at Spoke-3 (18 bays),-0.642,-1.521,-0.939,555.58,16.0
+Inspection capacity +10%,0.578,2.636,0.401,-197.701,-87.0
+Rebalance stock between cities,-0.347,-2.155,-0.067,478.819,-14.833
+Yard space +15%,-0.388,0.336,-0.095,128.025,4.0
+Markdown at 45 days (3%),0.165,2.952,-0.217,-1853.49,-4.5
+Seller leads +10%,5.688,49.407,3.106,-2532.743,293.667
+Buyer demand -10%,3.728,22.988,-0.336,-2140.715,-13.0

@@ -1,0 +1,7 @@
+city,role,parent,transit_days,bays,insp_cap_day,yard_cap,leads_week,mix_budget,mix_assured,mix_premium,dem_budget,dem_assured,dem_premium
+Metro-A,metro,,0,150,52,900,310,0.34,0.56,0.10,0.85,1.05,1.30
+Metro-B,metro,,0,117,38,720,236,0.40,0.52,0.08,1.00,0.90,1.15
+Metro-C,metro,,0,82,34,580,200,0.30,0.58,0.12,1.35,1.25,0.85
+Spoke-1,spoke,Metro-A,1,0,14,260,82,0.45,0.50,0.05,0.80,0.85,1.00
+Spoke-2,spoke,Metro-B,2,0,10.6,230,73,0.50,0.46,0.04,1.15,1.05,1.00
+Spoke-3,spoke,Metro-B,3,0,8.2,170,55,0.48,0.48,0.04,1.25,1.10,1.00

@@ -1,0 +1,1328 @@
+{
+ "Baseline": {
+  "kpi": {
+   "sold_per_month": 2144.267857142857,
+   "days_in_inventory": 39.00087019135081,
+   "p90_days": 82.25,
+   "aged_45": 0.30686814143465946,
+   "aged_60": 0.20333304907631286,
+   "refurb_tat": 5.304712235244981,
+   "capital_cr": 176.42777628872608,
+   "cars_in_pipeline": 3078.9988095238095,
+   "contrib_per_car": 9979.377533518578,
+   "holding_per_car": 16836.00170196694,
+   "contrib_total_cr": 2.1399911837933634,
+   "rework_share": 0.07925053043775926,
+   "md_share": 0.16717626799237978,
+   "leads_lost": 97.0,
+   "lost_share": 0.0021474845702331366,
+   "xfers": 0.0,
+   "d_lag": 1.5010718910248453,
+   "d_transit_out": 0.40671340947843126,
+   "d_refurb_q": 1.1133806925512093,
+   "d_refurb": 4.1913315426937725,
+   "d_transit_back": 0.40671340947843126,
+   "d_yard_wait": 0.35820774126004296,
+   "d_listed": 31.023451504864084,
+   "d_xfer": 0.0,
+   "spares_cr": 0.32878930554659325
+  },
+  "sd": {
+   "sold_per_month": 10.03940850010944,
+   "days_in_inventory": 0.85466560844295,
+   "p90_days": 1.3887301496588271,
+   "aged_45": 0.010016463357443519,
+   "aged_60": 0.006827129764282369,
+   "refurb_tat": 0.7837565653600739,
+   "capital_cr": 5.357471110825784,
+   "cars_in_pipeline": 86.68781866983235,
+   "contrib_per_car": 439.7365047929798,
+   "holding_per_car": 413.06179575723223,
+   "contrib_total_cr": 0.09809447560044073,
+   "rework_share": 0.0019732027552508144,
+   "md_share": 0.004075854989158846,
+   "leads_lost": 24.07132259408634,
+   "lost_share": 0.000534655031043592,
+   "xfers": 0.0,
+   "d_lag": 0.004341391914674364,
+   "d_transit_out": 0.005760364019871667,
+   "d_refurb_q": 0.7719220410751837,
+   "d_refurb": 0.020656498744755083,
+   "d_transit_back": 0.005760364019871667,
+   "d_yard_wait": 0.2092070733170142,
+   "d_listed": 0.38458290301340825,
+   "d_xfer": 0.0
+  },
+  "city": [
+   {
+    "city": "Metro-A",
+    "role": "restoration centre",
+    "bays": 150,
+    "bay_util": 0.8509,
+    "refurb_queue": 0.2619,
+    "insp_util": 0.8439,
+    "leads_lost": 0.0,
+    "leads_in": 14681.75,
+    "stockout_jobs": 1587.125,
+    "jobs": 6390.375,
+    "yard_full_days": 67.0,
+    "sold": 4872.25,
+    "avg_days": 38.3193,
+    "yard_wait_avg": 0.2949
+   },
+   {
+    "city": "Metro-B",
+    "role": "restoration centre",
+    "bays": 117,
+    "bay_util": 0.9893,
+    "refurb_queue": 85.0417,
+    "insp_util": 0.8836,
+    "leads_lost": 0.0,
+    "leads_in": 11200.5,
+    "stockout_jobs": 1441.0,
+    "jobs": 5994.875,
+    "yard_full_days": 45.375,
+    "sold": 3712.125,
+    "avg_days": 40.9979,
+    "yard_wait_avg": 0.1482
+   },
+   {
+    "city": "Metro-C",
+    "role": "restoration centre",
+    "bays": 82,
+    "bay_util": 0.8179,
+    "refurb_queue": 0.1815,
+    "insp_util": 0.8277,
+    "leads_lost": 0.0,
+    "leads_in": 9401.375,
+    "stockout_jobs": 825.25,
+    "jobs": 3252.375,
+    "yard_full_days": 0.0,
+    "sold": 3208.625,
+    "avg_days": 33.2675,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-1",
+    "role": "spoke via Metro-A",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.8276,
+    "leads_lost": 0.0,
+    "leads_in": 3847.25,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 138.0,
+    "sold": 1202.25,
+    "avg_days": 48.3052,
+    "yard_wait_avg": 2.8336
+   },
+   {
+    "city": "Spoke-2",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9557,
+    "leads_lost": 61.625,
+    "leads_in": 3453.0,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.5,
+    "sold": 1141.375,
+    "avg_days": 40.0791,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-3",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9305,
+    "leads_lost": 35.375,
+    "leads_in": 2587.5,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.0,
+    "sold": 873.25,
+    "avg_days": 41.1301,
+    "yard_wait_avg": 0.0
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Paperwork and pickup",
+    "key": "lag",
+    "days": 1.501
+   },
+   {
+    "stage": "Transit to restoration",
+    "key": "transit_out",
+    "days": 0.407
+   },
+   {
+    "stage": "Waiting for a bay",
+    "key": "refurb_q",
+    "days": 1.113
+   },
+   {
+    "stage": "In the bay",
+    "key": "refurb",
+    "days": 4.191
+   },
+   {
+    "stage": "Transit back to hub",
+    "key": "transit_back",
+    "days": 0.407
+   },
+   {
+    "stage": "Waiting for yard space",
+    "key": "yard_wait",
+    "days": 0.358
+   },
+   {
+    "stage": "Inter-city transfer",
+    "key": "xfer",
+    "days": 0.0
+   },
+   {
+    "stage": "Listed for sale",
+    "key": "listed",
+    "days": 31.023
+   }
+  ],
+  "flags": [
+   {
+    "city": "Metro-A",
+    "flag": "ok"
+   },
+   {
+    "city": "Metro-B",
+    "flag": "bays near full, queue for bays"
+   },
+   {
+    "city": "Metro-C",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-1",
+    "flag": "yard full"
+   },
+   {
+    "city": "Spoke-2",
+    "flag": "inspection near full, losing leads"
+   },
+   {
+    "city": "Spoke-3",
+    "flag": "inspection near full"
+   }
+  ]
+ },
+ "Festive surge: +10% seller leads": {
+  "kpi": {
+   "sold_per_month": 2207.982142857143,
+   "days_in_inventory": 44.69094247130698,
+   "p90_days": 90.5,
+   "aged_45": 0.37185308117789084,
+   "aged_60": 0.2497331467231489,
+   "refurb_tat": 8.446771009903156,
+   "capital_cr": 227.26032035584,
+   "cars_in_pipeline": 3989.0005952380952,
+   "contrib_per_car": 7438.079146023559,
+   "holding_per_car": 19255.875130172954,
+   "contrib_total_cr": 1.6426752229116388,
+   "rework_share": 0.082612076869304,
+   "md_share": 0.1818369758286223,
+   "leads_lost": 386.5,
+   "lost_share": 0.007755458891581927,
+   "xfers": 0.0,
+   "d_lag": 1.5002901198056338,
+   "d_transit_out": 0.38631804804279823,
+   "d_refurb_q": 4.194666353211618,
+   "d_refurb": 4.2521046566915395,
+   "d_transit_back": 0.38631804804279823,
+   "d_yard_wait": 1.4258507059107264,
+   "d_listed": 32.54539453960187,
+   "d_xfer": 0.0,
+   "spares_cr": 0.35389056210229003
+  },
+  "sd": {
+   "sold_per_month": 13.036937320317078,
+   "days_in_inventory": 0.8497753755349231,
+   "p90_days": 1.5118578920369088,
+   "aged_45": 0.010131486454644527,
+   "aged_60": 0.007898075028227243,
+   "refurb_tat": 0.43173216656190383,
+   "capital_cr": 7.519764709677785,
+   "cars_in_pipeline": 128.07207828560675,
+   "contrib_per_car": 464.4990327340275,
+   "holding_per_car": 442.6865621688735,
+   "contrib_total_cr": 0.10966685311226029,
+   "rework_share": 0.0031080037936524374,
+   "md_share": 0.0038785527920889686,
+   "leads_lost": 33.59846935289081,
+   "lost_share": 0.0006755776848339176,
+   "xfers": 0.0,
+   "d_lag": 0.0041444719259394885,
+   "d_transit_out": 0.005227820562818095,
+   "d_refurb_q": 0.41745903191312933,
+   "d_refurb": 0.023804017580132716,
+   "d_transit_back": 0.005227820562818095,
+   "d_yard_wait": 0.2927370167520323,
+   "d_listed": 0.37510732706973177,
+   "d_xfer": 0.0
+  },
+  "city": [
+   {
+    "city": "Metro-A",
+    "role": "restoration centre",
+    "bays": 150,
+    "bay_util": 0.9393,
+    "refurb_queue": 5.2851,
+    "insp_util": 0.9356,
+    "leads_lost": 3.0,
+    "leads_in": 16128.5,
+    "stockout_jobs": 1728.25,
+    "jobs": 7102.875,
+    "yard_full_days": 190.125,
+    "sold": 5040.0,
+    "avg_days": 42.1434,
+    "yard_wait_avg": 2.1369
+   },
+   {
+    "city": "Metro-B",
+    "role": "restoration centre",
+    "bays": 117,
+    "bay_util": 1.0,
+    "refurb_queue": 412.5756,
+    "insp_util": 0.973,
+    "leads_lost": 64.75,
+    "leads_in": 12350.625,
+    "stockout_jobs": 1466.5,
+    "jobs": 6072.5,
+    "yard_full_days": 94.5,
+    "sold": 3743.375,
+    "avg_days": 51.0316,
+    "yard_wait_avg": 0.5804
+   },
+   {
+    "city": "Metro-C",
+    "role": "restoration centre",
+    "bays": 82,
+    "bay_util": 0.9102,
+    "refurb_queue": 2.5036,
+    "insp_util": 0.9227,
+    "leads_lost": 3.25,
+    "leads_in": 10426.5,
+    "stockout_jobs": 913.5,
+    "jobs": 3633.5,
+    "yard_full_days": 77.75,
+    "sold": 3489.875,
+    "avg_days": 36.1163,
+    "yard_wait_avg": 0.5121
+   },
+   {
+    "city": "Spoke-1",
+    "role": "spoke via Metro-A",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9113,
+    "leads_lost": 12.0,
+    "leads_in": 4269.625,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 198.625,
+    "sold": 1234.125,
+    "avg_days": 53.2048,
+    "yard_wait_avg": 5.9164
+   },
+   {
+    "city": "Spoke-2",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9952,
+    "leads_lost": 173.125,
+    "leads_in": 3784.375,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 2.75,
+    "sold": 1108.75,
+    "avg_days": 48.068,
+    "yard_wait_avg": 0.0014
+   },
+   {
+    "city": "Spoke-3",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9802,
+    "leads_lost": 130.375,
+    "leads_in": 2877.5,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.0,
+    "sold": 839.75,
+    "avg_days": 50.4271,
+    "yard_wait_avg": 0.0
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Paperwork and pickup",
+    "key": "lag",
+    "days": 1.5
+   },
+   {
+    "stage": "Transit to restoration",
+    "key": "transit_out",
+    "days": 0.386
+   },
+   {
+    "stage": "Waiting for a bay",
+    "key": "refurb_q",
+    "days": 4.195
+   },
+   {
+    "stage": "In the bay",
+    "key": "refurb",
+    "days": 4.252
+   },
+   {
+    "stage": "Transit back to hub",
+    "key": "transit_back",
+    "days": 0.386
+   },
+   {
+    "stage": "Waiting for yard space",
+    "key": "yard_wait",
+    "days": 1.426
+   },
+   {
+    "stage": "Inter-city transfer",
+    "key": "xfer",
+    "days": 0.0
+   },
+   {
+    "stage": "Listed for sale",
+    "key": "listed",
+    "days": 32.545
+   }
+  ],
+  "flags": [
+   {
+    "city": "Metro-A",
+    "flag": "inspection near full, yard full"
+   },
+   {
+    "city": "Metro-B",
+    "flag": "bays near full, inspection near full, queue for bays"
+   },
+   {
+    "city": "Metro-C",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-1",
+    "flag": "yard full"
+   },
+   {
+    "city": "Spoke-2",
+    "flag": "inspection near full, losing leads"
+   },
+   {
+    "city": "Spoke-3",
+    "flag": "inspection near full, losing leads"
+   }
+  ]
+ },
+ "Surge with resilience package": {
+  "kpi": {
+   "sold_per_month": 2334.0,
+   "days_in_inventory": 40.210433001452344,
+   "p90_days": 86.375,
+   "aged_45": 0.327591453252313,
+   "aged_60": 0.2244636763390186,
+   "refurb_tat": 3.8341452099899094,
+   "capital_cr": 202.58513997532805,
+   "cars_in_pipeline": 3518.594642857143,
+   "contrib_per_car": 9563.162177995042,
+   "holding_per_car": 17439.279739192716,
+   "contrib_total_cr": 2.2321780972349905,
+   "rework_share": 0.08089382310900517,
+   "md_share": 0.17748876289245333,
+   "leads_lost": 76.875,
+   "lost_share": 0.0015437919442403947,
+   "xfers": 457.75,
+   "d_lag": 1.500763474221011,
+   "d_transit_out": 0.23600212975865467,
+   "d_refurb_q": 0.05183386894918283,
+   "d_refurb": 3.7823113410407267,
+   "d_transit_back": 0.23600212975865467,
+   "d_yard_wait": 0.5552875696411126,
+   "d_listed": 33.80177117268144,
+   "d_xfer": 0.046461315401555514,
+   "spares_cr": 0.4029374127386645
+  },
+  "sd": {
+   "sold_per_month": 17.21007231017008,
+   "days_in_inventory": 0.6093456278777042,
+   "p90_days": 0.9161253813129043,
+   "aged_45": 0.007567444877357054,
+   "aged_60": 0.006688528072297027,
+   "refurb_tat": 0.07244555718314322,
+   "capital_cr": 5.42819549105853,
+   "cars_in_pipeline": 97.62391842626785,
+   "contrib_per_car": 345.57817802455634,
+   "holding_per_car": 263.32998014851705,
+   "contrib_total_cr": 0.08664395975194338,
+   "rework_share": 0.0017303637741552136,
+   "md_share": 0.005820357517152835,
+   "leads_lost": 31.934922666483562,
+   "lost_share": 0.0006406295950066491,
+   "xfers": 75.43540282917564,
+   "d_lag": 0.003127307494675225,
+   "d_transit_out": 0.005201910386286055,
+   "d_refurb_q": 0.050367346585969607,
+   "d_refurb": 0.029222402513965576,
+   "d_transit_back": 0.005201910386286055,
+   "d_yard_wait": 0.2073063514033921,
+   "d_listed": 0.4214040946823174,
+   "d_xfer": 0.008277407352799611
+  },
+  "city": [
+   {
+    "city": "Metro-A",
+    "role": "restoration centre",
+    "bays": 150,
+    "bay_util": 0.8496,
+    "refurb_queue": 0.1571,
+    "insp_util": 0.8511,
+    "leads_lost": 0.0,
+    "leads_in": 16163.625,
+    "stockout_jobs": 760.25,
+    "jobs": 7099.5,
+    "yard_full_days": 114.625,
+    "sold": 5173.625,
+    "avg_days": 39.4666,
+    "yard_wait_avg": 0.7841
+   },
+   {
+    "city": "Metro-B",
+    "role": "restoration centre",
+    "bays": 127,
+    "bay_util": 0.763,
+    "refurb_queue": 0.0054,
+    "insp_util": 0.8813,
+    "leads_lost": 0.0,
+    "leads_in": 12279.625,
+    "stockout_jobs": 582.5,
+    "jobs": 5564.0,
+    "yard_full_days": 117.375,
+    "sold": 3936.0,
+    "avg_days": 41.0434,
+    "yard_wait_avg": 0.9409
+   },
+   {
+    "city": "Metro-C",
+    "role": "restoration centre",
+    "bays": 82,
+    "bay_util": 0.8142,
+    "refurb_queue": 0.3637,
+    "insp_util": 0.8302,
+    "leads_lost": 0.0,
+    "leads_in": 10409.5,
+    "stockout_jobs": 408.625,
+    "jobs": 3598.375,
+    "yard_full_days": 4.125,
+    "sold": 3704.375,
+    "avg_days": 39.0777,
+    "yard_wait_avg": 0.0048
+   },
+   {
+    "city": "Spoke-1",
+    "role": "spoke via Metro-A",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.8391,
+    "leads_lost": 0.25,
+    "leads_in": 4316.0,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 89.0,
+    "sold": 1234.0,
+    "avg_days": 39.4137,
+    "yard_wait_avg": 0.8634
+   },
+   {
+    "city": "Spoke-2",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9563,
+    "leads_lost": 48.375,
+    "leads_in": 3781.625,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 17.125,
+    "sold": 1281.125,
+    "avg_days": 43.319,
+    "yard_wait_avg": 0.1393
+   },
+   {
+    "city": "Spoke-3",
+    "role": "restoration centre",
+    "bays": 18,
+    "bay_util": 0.9002,
+    "refurb_queue": 3.822,
+    "insp_util": 0.9304,
+    "leads_lost": 28.25,
+    "leads_in": 2835.75,
+    "stockout_jobs": 96.375,
+    "jobs": 964.5,
+    "yard_full_days": 15.125,
+    "sold": 1008.875,
+    "avg_days": 42.013,
+    "yard_wait_avg": 0.0798
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Paperwork and pickup",
+    "key": "lag",
+    "days": 1.501
+   },
+   {
+    "stage": "Transit to restoration",
+    "key": "transit_out",
+    "days": 0.236
+   },
+   {
+    "stage": "Waiting for a bay",
+    "key": "refurb_q",
+    "days": 0.052
+   },
+   {
+    "stage": "In the bay",
+    "key": "refurb",
+    "days": 3.782
+   },
+   {
+    "stage": "Transit back to hub",
+    "key": "transit_back",
+    "days": 0.236
+   },
+   {
+    "stage": "Waiting for yard space",
+    "key": "yard_wait",
+    "days": 0.555
+   },
+   {
+    "stage": "Inter-city transfer",
+    "key": "xfer",
+    "days": 0.046
+   },
+   {
+    "stage": "Listed for sale",
+    "key": "listed",
+    "days": 33.802
+   }
+  ],
+  "flags": [
+   {
+    "city": "Metro-A",
+    "flag": "ok"
+   },
+   {
+    "city": "Metro-B",
+    "flag": "ok"
+   },
+   {
+    "city": "Metro-C",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-1",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-2",
+    "flag": "inspection near full"
+   },
+   {
+    "city": "Spoke-3",
+    "flag": "inspection near full"
+   }
+  ]
+ },
+ "Resilience package, normal load": {
+  "kpi": {
+   "sold_per_month": 2184.267857142857,
+   "days_in_inventory": 37.10057541982809,
+   "p90_days": 80.25,
+   "aged_45": 0.2894047588143561,
+   "aged_60": 0.1942442415271132,
+   "refurb_tat": 3.7505505302740882,
+   "capital_cr": 166.7941655281382,
+   "cars_in_pipeline": 2916.6214285714286,
+   "contrib_per_car": 11338.664770185955,
+   "holding_per_car": 15993.787994367809,
+   "contrib_total_cr": 2.4761762918269166,
+   "rework_share": 0.07867239904366558,
+   "md_share": 0.15252962996071778,
+   "leads_lost": 12.375,
+   "lost_share": 0.0002732170729954674,
+   "xfers": 467.625,
+   "d_lag": 1.4985330827423635,
+   "d_transit_out": 0.240299063541434,
+   "d_refurb_q": 0.015849857118038133,
+   "d_refurb": 3.73470067315605,
+   "d_transit_back": 0.240299063541434,
+   "d_yard_wait": 0.00031131209857124134,
+   "d_listed": 31.323398954229976,
+   "d_xfer": 0.04718341340022916,
+   "spares_cr": 0.36739965450505163
+  },
+  "sd": {
+   "sold_per_month": 19.095499981239733,
+   "days_in_inventory": 0.5260862996154405,
+   "p90_days": 1.2817398889233114,
+   "aged_45": 0.0062493439502014775,
+   "aged_60": 0.004912975173171805,
+   "refurb_tat": 0.011704427679567501,
+   "capital_cr": 3.90465329084332,
+   "cars_in_pipeline": 74.55507283645757,
+   "contrib_per_car": 345.90222357982736,
+   "holding_per_car": 261.7507750276882,
+   "contrib_total_cr": 0.058095574074207,
+   "rework_share": 0.0012986240884377215,
+   "md_share": 0.0051317255611688555,
+   "leads_lost": 12.971810095081455,
+   "lost_share": 0.0002858820286332361,
+   "xfers": 54.184703956533184,
+   "d_lag": 0.005470872728394733,
+   "d_transit_out": 0.006413399502542589,
+   "d_refurb_q": 0.009335926969331498,
+   "d_refurb": 0.012413408523654128,
+   "d_transit_back": 0.006413399502542589,
+   "d_yard_wait": 0.0008805235838605587,
+   "d_listed": 0.5259258920688414,
+   "d_xfer": 0.005461867315947261
+  },
+  "city": [
+   {
+    "city": "Metro-A",
+    "role": "restoration centre",
+    "bays": 150,
+    "bay_util": 0.7688,
+    "refurb_queue": 0.0077,
+    "insp_util": 0.769,
+    "leads_lost": 0.0,
+    "leads_in": 14613.0,
+    "stockout_jobs": 677.75,
+    "jobs": 6453.75,
+    "yard_full_days": 0.0,
+    "sold": 4875.375,
+    "avg_days": 36.1994,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Metro-B",
+    "role": "restoration centre",
+    "bays": 127,
+    "bay_util": 0.6931,
+    "refurb_queue": 0.0,
+    "insp_util": 0.804,
+    "leads_lost": 0.0,
+    "leads_in": 11182.375,
+    "stockout_jobs": 514.0,
+    "jobs": 5075.5,
+    "yard_full_days": 2.375,
+    "sold": 3699.0,
+    "avg_days": 36.9693,
+    "yard_wait_avg": 0.0013
+   },
+   {
+    "city": "Metro-C",
+    "role": "restoration centre",
+    "bays": 82,
+    "bay_util": 0.74,
+    "refurb_queue": 0.0119,
+    "insp_util": 0.7569,
+    "leads_lost": 0.0,
+    "leads_in": 9432.5,
+    "stockout_jobs": 360.625,
+    "jobs": 3283.125,
+    "yard_full_days": 0.0,
+    "sold": 3401.5,
+    "avg_days": 37.3094,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-1",
+    "role": "spoke via Metro-A",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.7618,
+    "leads_lost": 0.0,
+    "leads_in": 3905.0,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.625,
+    "sold": 1173.625,
+    "avg_days": 33.9406,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-2",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.8937,
+    "leads_lost": 4.625,
+    "leads_in": 3477.125,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.0,
+    "sold": 1204.125,
+    "avg_days": 41.0501,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-3",
+    "role": "restoration centre",
+    "bays": 18,
+    "bay_util": 0.8424,
+    "refurb_queue": 1.1673,
+    "insp_util": 0.8743,
+    "leads_lost": 7.75,
+    "leads_in": 2619.375,
+    "stockout_jobs": 91.25,
+    "jobs": 896.875,
+    "yard_full_days": 0.0,
+    "sold": 936.25,
+    "avg_days": 40.4435,
+    "yard_wait_avg": 0.0
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Paperwork and pickup",
+    "key": "lag",
+    "days": 1.499
+   },
+   {
+    "stage": "Transit to restoration",
+    "key": "transit_out",
+    "days": 0.24
+   },
+   {
+    "stage": "Waiting for a bay",
+    "key": "refurb_q",
+    "days": 0.016
+   },
+   {
+    "stage": "In the bay",
+    "key": "refurb",
+    "days": 3.735
+   },
+   {
+    "stage": "Transit back to hub",
+    "key": "transit_back",
+    "days": 0.24
+   },
+   {
+    "stage": "Waiting for yard space",
+    "key": "yard_wait",
+    "days": 0.0
+   },
+   {
+    "stage": "Inter-city transfer",
+    "key": "xfer",
+    "days": 0.047
+   },
+   {
+    "stage": "Listed for sale",
+    "key": "listed",
+    "days": 31.323
+   }
+  ],
+  "flags": [
+   {
+    "city": "Metro-A",
+    "flag": "ok"
+   },
+   {
+    "city": "Metro-B",
+    "flag": "ok"
+   },
+   {
+    "city": "Metro-C",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-1",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-2",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-3",
+    "flag": "ok"
+   }
+  ]
+ },
+ "Parts shock: fill rate falls to 90%": {
+  "kpi": {
+   "sold_per_month": 2071.9642857142853,
+   "days_in_inventory": 46.23088326073869,
+   "p90_days": 88.75,
+   "aged_45": 0.41326993470812545,
+   "aged_60": 0.25609224911299533,
+   "refurb_tat": 13.294357684216957,
+   "capital_cr": 207.7823653872395,
+   "cars_in_pipeline": 3666.932142857143,
+   "contrib_per_car": 7148.227739661031,
+   "holding_per_car": 19836.209615843076,
+   "contrib_total_cr": 1.4811377410082853,
+   "rework_share": 0.0797039152988674,
+   "md_share": 0.16183751336749336,
+   "leads_lost": 84.375,
+   "lost_share": 0.0018588312567080108,
+   "xfers": 0.0,
+   "d_lag": 1.4998176256631806,
+   "d_transit_out": 0.3852218679507798,
+   "d_refurb_q": 8.543384888707802,
+   "d_refurb": 4.7509727955091545,
+   "d_transit_back": 0.3852218679507798,
+   "d_yard_wait": 0.2791123672442347,
+   "d_listed": 30.387151847712758,
+   "d_xfer": 0.0,
+   "spares_cr": 0.28692659035283363
+  },
+  "sd": {
+   "sold_per_month": 9.262215163642527,
+   "days_in_inventory": 0.9584441349898783,
+   "p90_days": 1.3887301496588271,
+   "aged_45": 0.014333245076453362,
+   "aged_60": 0.008927061147007594,
+   "refurb_tat": 0.6662863372743176,
+   "capital_cr": 7.406659722209776,
+   "cars_in_pipeline": 94.98724619860926,
+   "contrib_per_car": 508.5429036365823,
+   "holding_per_car": 542.6448217048664,
+   "contrib_total_cr": 0.1063874443863446,
+   "rework_share": 0.002163188303611894,
+   "md_share": 0.0028090466848969373,
+   "leads_lost": 27.296977854700327,
+   "lost_share": 0.0005947314050184609,
+   "xfers": 0.0,
+   "d_lag": 0.005528909561134272,
+   "d_transit_out": 0.00621958048933363,
+   "d_refurb_q": 0.6550942335904043,
+   "d_refurb": 0.01805228373259338,
+   "d_transit_back": 0.00621958048933363,
+   "d_yard_wait": 0.12863701244528933,
+   "d_listed": 0.2867871877486841,
+   "d_xfer": 0.0
+  },
+  "city": [
+   {
+    "city": "Metro-A",
+    "role": "restoration centre",
+    "bays": 150,
+    "bay_util": 0.9845,
+    "refurb_queue": 64.825,
+    "insp_util": 0.852,
+    "leads_lost": 0.0,
+    "leads_in": 14766.625,
+    "stockout_jobs": 2838.25,
+    "jobs": 6550.75,
+    "yard_full_days": 90.125,
+    "sold": 4873.125,
+    "avg_days": 41.1977,
+    "yard_wait_avg": 0.3469
+   },
+   {
+    "city": "Metro-B",
+    "role": "restoration centre",
+    "bays": 117,
+    "bay_util": 1.0,
+    "refurb_queue": 704.8595,
+    "insp_util": 0.8935,
+    "leads_lost": 0.875,
+    "leads_in": 11226.25,
+    "stockout_jobs": 2256.375,
+    "jobs": 5360.75,
+    "yard_full_days": 0.0,
+    "sold": 3378.875,
+    "avg_days": 56.7952,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Metro-C",
+    "role": "restoration centre",
+    "bays": 82,
+    "bay_util": 0.9374,
+    "refurb_queue": 6.7762,
+    "insp_util": 0.8331,
+    "leads_lost": 0.0,
+    "leads_in": 9425.5,
+    "stockout_jobs": 1475.5,
+    "jobs": 3294.125,
+    "yard_full_days": 0.0,
+    "sold": 3254.75,
+    "avg_days": 34.8034,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-1",
+    "role": "spoke via Metro-A",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.8362,
+    "leads_lost": 1.0,
+    "leads_in": 3899.0,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 138.375,
+    "sold": 1192.75,
+    "avg_days": 50.6176,
+    "yard_wait_avg": 1.9654
+   },
+   {
+    "city": "Spoke-2",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9506,
+    "leads_lost": 46.0,
+    "leads_in": 3419.125,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.0,
+    "sold": 1018.375,
+    "avg_days": 56.9204,
+    "yard_wait_avg": 0.0
+   },
+   {
+    "city": "Spoke-3",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9378,
+    "leads_lost": 36.5,
+    "leads_in": 2608.75,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 0.0,
+    "sold": 785.875,
+    "avg_days": 58.8085,
+    "yard_wait_avg": 0.0
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Paperwork and pickup",
+    "key": "lag",
+    "days": 1.5
+   },
+   {
+    "stage": "Transit to restoration",
+    "key": "transit_out",
+    "days": 0.385
+   },
+   {
+    "stage": "Waiting for a bay",
+    "key": "refurb_q",
+    "days": 8.543
+   },
+   {
+    "stage": "In the bay",
+    "key": "refurb",
+    "days": 4.751
+   },
+   {
+    "stage": "Transit back to hub",
+    "key": "transit_back",
+    "days": 0.385
+   },
+   {
+    "stage": "Waiting for yard space",
+    "key": "yard_wait",
+    "days": 0.279
+   },
+   {
+    "stage": "Inter-city transfer",
+    "key": "xfer",
+    "days": 0.0
+   },
+   {
+    "stage": "Listed for sale",
+    "key": "listed",
+    "days": 30.387
+   }
+  ],
+  "flags": [
+   {
+    "city": "Metro-A",
+    "flag": "bays near full, queue for bays"
+   },
+   {
+    "city": "Metro-B",
+    "flag": "bays near full, queue for bays"
+   },
+   {
+    "city": "Metro-C",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-1",
+    "flag": "yard full"
+   },
+   {
+    "city": "Spoke-2",
+    "flag": "inspection near full"
+   },
+   {
+    "city": "Spoke-3",
+    "flag": "inspection near full"
+   }
+  ]
+ },
+ "Demand dip: -10% buyer demand": {
+  "kpi": {
+   "sold_per_month": 2082.339285714286,
+   "days_in_inventory": 42.64953503217053,
+   "p90_days": 89.875,
+   "aged_45": 0.3512548180722126,
+   "aged_60": 0.24497774859553417,
+   "refurb_tat": 4.89230067580451,
+   "capital_cr": 198.5228055436528,
+   "cars_in_pipeline": 3458.4160714285713,
+   "contrib_per_car": 7889.638785234324,
+   "holding_per_car": 18477.876752256103,
+   "contrib_total_cr": 1.6429274118129773,
+   "rework_share": 0.08157007214348848,
+   "md_share": 0.19937574005844907,
+   "leads_lost": 87.875,
+   "lost_share": 0.0019448286992878642,
+   "xfers": 0.0,
+   "d_lag": 1.5010229568745506,
+   "d_transit_out": 0.4088185367605856,
+   "d_refurb_q": 0.6553147590377886,
+   "d_refurb": 4.236985916766722,
+   "d_transit_back": 0.4088185367605856,
+   "d_yard_wait": 1.1380856568509214,
+   "d_listed": 34.300488669119375,
+   "d_xfer": 0.0,
+   "spares_cr": 0.32994010298760507
+  },
+  "sd": {
+   "sold_per_month": 9.382987365175442,
+   "days_in_inventory": 0.7059939014246417,
+   "p90_days": 1.5526475085202969,
+   "aged_45": 0.009454969661026465,
+   "aged_60": 0.00708294877703343,
+   "refurb_tat": 0.3695845032635884,
+   "capital_cr": 5.908257753276714,
+   "cars_in_pipeline": 77.4852263184347,
+   "contrib_per_car": 515.0651759916017,
+   "holding_per_car": 381.78208531879045,
+   "contrib_total_cr": 0.10816675842537002,
+   "rework_share": 0.001733813847140335,
+   "md_share": 0.006770983487908052,
+   "leads_lost": 31.813912051176604,
+   "lost_share": 0.0007053459783255755,
+   "xfers": 0.0,
+   "d_lag": 0.004966266904629516,
+   "d_transit_out": 0.007719526621793729,
+   "d_refurb_q": 0.37210877026801875,
+   "d_refurb": 0.014725489865390382,
+   "d_transit_back": 0.007719526621793729,
+   "d_yard_wait": 0.23018248442230707,
+   "d_listed": 0.5779055752423994,
+   "d_xfer": 0.0
+  },
+  "city": [
+   {
+    "city": "Metro-A",
+    "role": "restoration centre",
+    "bays": 150,
+    "bay_util": 0.8551,
+    "refurb_queue": 0.3262,
+    "insp_util": 0.8491,
+    "leads_lost": 0.0,
+    "leads_in": 14670.875,
+    "stockout_jobs": 1583.0,
+    "jobs": 6444.125,
+    "yard_full_days": 165.5,
+    "sold": 4685.875,
+    "avg_days": 43.0254,
+    "yard_wait_avg": 1.7795
+   },
+   {
+    "city": "Metro-B",
+    "role": "restoration centre",
+    "bays": 117,
+    "bay_util": 0.9831,
+    "refurb_queue": 46.3143,
+    "insp_util": 0.8812,
+    "leads_lost": 0.0,
+    "leads_in": 11146.375,
+    "stockout_jobs": 1419.5,
+    "jobs": 5971.0,
+    "yard_full_days": 115.25,
+    "sold": 3538.375,
+    "avg_days": 44.4422,
+    "yard_wait_avg": 0.8012
+   },
+   {
+    "city": "Metro-C",
+    "role": "restoration centre",
+    "bays": 82,
+    "bay_util": 0.8264,
+    "refurb_queue": 0.4274,
+    "insp_util": 0.8281,
+    "leads_lost": 0.0,
+    "leads_in": 9453.875,
+    "stockout_jobs": 828.25,
+    "jobs": 3274.75,
+    "yard_full_days": 27.25,
+    "sold": 3228.375,
+    "avg_days": 36.6363,
+    "yard_wait_avg": 0.1416
+   },
+   {
+    "city": "Spoke-1",
+    "role": "spoke via Metro-A",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.8349,
+    "leads_lost": 1.5,
+    "leads_in": 3875.25,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 186.375,
+    "sold": 1141.125,
+    "avg_days": 53.1069,
+    "yard_wait_avg": 4.2196
+   },
+   {
+    "city": "Spoke-2",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.9708,
+    "leads_lost": 55.0,
+    "leads_in": 3459.625,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 18.5,
+    "sold": 1129.875,
+    "avg_days": 42.3238,
+    "yard_wait_avg": 0.0734
+   },
+   {
+    "city": "Spoke-3",
+    "role": "spoke via Metro-B",
+    "bays": 0,
+    "bay_util": null,
+    "refurb_queue": null,
+    "insp_util": 0.928,
+    "leads_lost": 31.375,
+    "leads_in": 2579.125,
+    "stockout_jobs": 0.0,
+    "jobs": 0.0,
+    "yard_full_days": 14.5,
+    "sold": 852.75,
+    "avg_days": 42.3059,
+    "yard_wait_avg": 0.06
+   }
+  ],
+  "stages": [
+   {
+    "stage": "Paperwork and pickup",
+    "key": "lag",
+    "days": 1.501
+   },
+   {
+    "stage": "Transit to restoration",
+    "key": "transit_out",
+    "days": 0.409
+   },
+   {
+    "stage": "Waiting for a bay",
+    "key": "refurb_q",
+    "days": 0.655
+   },
+   {
+    "stage": "In the bay",
+    "key": "refurb",
+    "days": 4.237
+   },
+   {
+    "stage": "Transit back to hub",
+    "key": "transit_back",
+    "days": 0.409
+   },
+   {
+    "stage": "Waiting for yard space",
+    "key": "yard_wait",
+    "days": 1.138
+   },
+   {
+    "stage": "Inter-city transfer",
+    "key": "xfer",
+    "days": 0.0
+   },
+   {
+    "stage": "Listed for sale",
+    "key": "listed",
+    "days": 34.3
+   }
+  ],
+  "flags": [
+   {
+    "city": "Metro-A",
+    "flag": "yard full"
+   },
+   {
+    "city": "Metro-B",
+    "flag": "bays near full, queue for bays"
+   },
+   {
+    "city": "Metro-C",
+    "flag": "ok"
+   },
+   {
+    "city": "Spoke-1",
+    "flag": "yard full"
+   },
+   {
+    "city": "Spoke-2",
+    "flag": "inspection near full, losing leads"
+   },
+   {
+    "city": "Spoke-3",
+    "flag": "ok"
+   }
+  ]
+ }
+}
